@@ -1,0 +1,22 @@
+p{
+     font-size: medium;
+    line-height: 15px;
+}
+#site-title{
+    background-color: bisque;
+    color: aqua;
+    padding: 5px;
+}
+.muted{
+    color: gray;
+}
+.highlight{
+    background-color: burlywood;
+    border: solid 2px black;
+}
+.highlight-text{
+    background-color: lightblue;
+}
+#override {
+  background-color: yellow; 
+}

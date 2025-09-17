@@ -1,0 +1,63 @@
+body{
+    font-family: sans-serif;
+    background-color: lightgray;
+    color: #222;
+}
+.card{
+    padding: 1rem;
+    border-radius: 10px;
+    min-height: 140px;
+}
+.card.solid,.cta{
+    background-color: #1e88e5;
+    color: white;
+    border-radius: 10px;
+    padding: 1rem;
+}
+.card.linear{
+    background: linear-gradient(to right, #ff8a65, #ff5252);
+}
+.card.radial{
+    background: radial-gradient(circle at top left, #81d4fa, #0288d1);
+}
+.bg-demo {
+  background-image: url("https://i.ytimg.com/vi/1YfztMIEK8k/hqdefault.jpg");
+  background-repeat: repeat-x;       
+  background-position: center top;   
+  background-size: contain;         
+  padding: 1rem; 
+  color: white; 
+                   
+}
+.bg-compare {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.compare {
+  flex: 1;
+  min-height: 200px;
+  color: white;
+  padding: 1rem;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.cover {
+  background-image: url("me.jpg");
+  background-size: cover;
+}
+
+.contain {
+  background-image: url("me.jpg");
+  background-size: contain;
+}
+.parallax{
+    background-image: url(me.jpg);
+    background-attachment: fixed; 
+    background-size: cover; /* Note: background-attachment: fixed may not work on mobile browsers due to scrolling optimizations */
+
+    min-height: 1000px
+}
+
